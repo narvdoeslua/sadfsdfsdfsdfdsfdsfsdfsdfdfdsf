@@ -1,0 +1,68 @@
+getgenv().Settings = {
+    Main = {
+        Enable = true,
+        
+        HoldKey = false,
+        ToggleKey = true,
+        
+        UseKeyBoardKey = true,
+        KeyBoardKey = Enum.KeyCode.Q,
+        
+        UseMouseKey = false,
+        MouseKey = Enum.UserInputType.MouseButton2,
+        
+        ThirdPerson = true,
+        FirstPerson = true,
+        
+        AutoPingSets = false,
+        
+        UseCircleRadius = false,
+        DisableOutSideCircle = false,
+        
+        UseShake = true,
+        ShakePower = 4,
+        
+        CheckForWalls = false
+    },
+    Check = {
+        CheckIfKo = true,
+        DisableOnTargetDeath = true,
+        DisableOnPlayerDeath = true
+    },
+    Horizontal = {
+        PredictMovement = true,
+        PredictionVelocity = 0.14632
+    },
+    Smooth = {
+        Smoothness = true,
+        SmoothnessAmount = 0.9,
+        SmoothMethod = Enum.EasingStyle.Circular,
+        SmoothMethodV2 = Enum.EasingDirection.InOut
+    },
+    Part = {
+        AimPart = "UpperTorso",
+        CheckIfJumpedAimPart = "Head",
+        CheckIfJumped = true,
+        GetClosestPart = true
+    },
+    Resolver = {
+        UnderGround = false,
+        UseUnderGroundKeybind = false,
+        UnderGroundKey = Enum.KeyCode.X,
+        DetectDesync = true,
+        Detection = 75,
+        
+        UseDetectDesyncKeybind = false,
+        DetectDesyncKey = Enum.KeyCode.V,
+        SendNotification = false
+    },
+    Visual = {
+        Fov = false,
+        FovTransparency = 1,
+        FovThickness = 1,
+        FovColor = Color3.fromRGB(255, 185, 0),
+        FovRadius = 150
+    },
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/narvdoeslua/sadfsdfsdfsdfdsfdsfsdfsdfdfdsf/main/f", true))()
